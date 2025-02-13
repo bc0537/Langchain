@@ -1,0 +1,13 @@
+prefix=/Users/bhanuprasadchetla/Desktop/aiml/Langchain/venv
+exec_prefix=/Users/bhanuprasadchetla/Desktop/aiml/Langchain/venv
+libdir=/Users/bhanuprasadchetla/Desktop/aiml/Langchain/venv/lib
+sharedlibdir=/Users/bhanuprasadchetla/Desktop/aiml/Langchain/venv/lib
+includedir=/Users/bhanuprasadchetla/Desktop/aiml/Langchain/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
